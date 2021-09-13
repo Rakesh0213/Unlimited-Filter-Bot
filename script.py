@@ -22,19 +22,19 @@ See <i>/help</i> for commands and more details.</b>
 
 <b>Filter Commands;</b>
 
-<code>/add name reply</code>  -  Add filter for name
+<code>/radd name reply</code>  -  Add filter for name
 
-<code>/del name</code>  -  Delete filter
+<code>/rdl name</code>  -  Delete filter
 
-<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
+<code>/rdelall</code>  -  Delete entire filters (Group Owner Only!)
 
-<code>/viewfilters</code>  -  List all filters in chat
+<code>/rviewfilters</code>  -  List all filters in chat
 
 
 <b>Connection Commands;</b>
 
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
-<code>/connect</code> in groups.
+<code>/rconnect groupid</code>  -  Connect your group to my PM. You can also simply use,
+<code>/rconnect</code> in groups.
 
 <code>/connections</code>  -  Manage your connections.
 
@@ -48,13 +48,13 @@ See <i>/help</i> for commands and more details.</b>
 <code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
 
 
-<b>© @TroJanzHEX</b>
+<b>© @nevergiveuphX</b>
 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : TroJanz Filter Bot</b>
+    ABOUT_MSG = """⭕️<b>My Name : Rakesh Filter Bot</b>
 
-⭕️<b>Creater :</b> @TroJanzHEX    
+⭕️<b>Creater :</b> @nevergiveuph    
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
