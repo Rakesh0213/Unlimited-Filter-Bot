@@ -51,13 +51,13 @@
 (You need to be an admin or Auth User in order to use these commands)
 
 > Filter Commands
-* `/add <filtername> <filtercontent>`  -  To add your filter. You can also reply to your content with /add command.
+* `/radd <filtername> <filtercontent>`  -  To add your filter. You can also reply to your content with /add command.
 
-* `/del <filtername>`  -  Delete your filter.
+* `/rdel <filtername>`  -  Delete your filter.
 
-* `/delall`  -  Delete all filters from group. (Group Owner Only!)
+* `/rdelall`  -  Delete all filters from group. (Group Owner Only!)
 
-* `/viewfilters`  -  List all filters in chat.
+* `/rviewfilters`  -  List all filters in chat.
 
 > Connection Commands
 * `/connect groupid`  -  Connects your group to PM. You can also simply use, `/connect` in groups.
@@ -119,15 +119,15 @@ python3 bot.py
 ### Optional - To set alternate Bot Commmands!
 ( *Add required field as heroku var and give desired command as value. You can edit it in sample_config.py also!*)
 
-* ADD_FILTER_CMD  -  default will be 'add'
+* ADD_FILTER_CMD  -  default will be 'radd'
 
-* DELETE_FILTER_CMD  -  default will be 'del'
+* DELETE_FILTER_CMD  -  default will be 'rdel'
 
-* DELETE_ALL_CMD  -  default will be 'delall'
+* DELETE_ALL_CMD  -  default will be 'rdelall'
 
-* CONNECT_COMMAND  -  default will be 'connect'
+* CONNECT_COMMAND  -  default will be 'rconnect'
 
-* DISCONNECT_COMMAND  -  default will be 'disconnect'
+* DISCONNECT_COMMAND  -  default will be 'rdisconnect'
 
 EG;  
 ![Vars Eg](https://telegra.ph/file/1f956f3491f2f20a9c1ec.jpg)
