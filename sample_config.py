@@ -39,11 +39,11 @@ class Config(object):
 
 
     # OPTIONAL - To set alternate BOT COMMANDS
-    ADD_FILTER_CMD = os.environ.get("ADD_FILTER_CMD", "add")
-    DELETE_FILTER_CMD = os.environ.get("DELETE_FILTER_CMDD", "del")
-    DELETE_ALL_CMD = os.environ.get("DELETE_ALL_CMDD", "delall")
-    CONNECT_COMMAND = os.environ.get("CONNECT_COMMANDD", "connect")
-    DISCONNECT_COMMAND = os.environ.get("DISCONNECT_COMMANDD", "disconnect")
+    ADD_FILTER_CMD = os.environ.get("ADD_FILTER_CMD", "radd")
+    DELETE_FILTER_CMD = os.environ.get("DELETE_FILTER_CMDD", "rdel")
+    DELETE_ALL_CMD = os.environ.get("DELETE_ALL_CMDD", "rdelall")
+    CONNECT_COMMAND = os.environ.get("CONNECT_COMMANDD", "rconnect")
+    DISCONNECT_COMMAND = os.environ.get("DISCONNECT_COMMANDD", "rdisconnect")
 
 
     # To record start time of bot
